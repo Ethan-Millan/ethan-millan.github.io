@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethan Millán — Desarrollador Backend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <!-- NAV -->
+  <nav>
+    <div class="wrap">
+      <a class="nav-logo" href="#">EM_</a>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <!-- HERO -->
+  <section id="hero">
+    <div class="wrap">
+      <p class="hero-tag">Disponible para trabajar</p>
+      <h1>Ethan<br><span>Millán.</span></h1>
+      <p class="hero-desc">
+        Desarrollador Backend Junior especializado en PHP y Laravel. 
+        Construyo sistemas web con arquitectura limpia, APIs REST y bases de datos relacionales. 
+        Trabajo en Linux, aprendo de forma autodidacta y busco mi primer empleo formal en desarrollo.
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/Ethan-Millan" target="_blank" class="btn btn-primary">GitHub</a>
+        <a href="#contacto" class="btn">Contacto</a>
+        <a href="CV_Ethan_Millan.pdf" download class="btn">Descargar CV</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi">
+    <div class="wrap fade-in">
+      <p class="section-label">Sobre mí</p>
+      <p class="about-text">
+        Ingeniero en Tecnologías de la Información egresado de la UPEMOR, en proceso de titulación. 
+        Me especializo en el desarrollo backend — lógica de negocio, diseño de bases de datos y APIs. 
+        Tengo experiencia práctica a través de una estadía profesional donde desarrollé un e-commerce completo con Laravel, 
+        y proyectos personales donde aplico y refuerzo buenas prácticas de forma autodidacta.
+        Uso Linux como entorno principal de trabajo y me siento cómodo aprendiendo lo que el proyecto necesite.
+      </p>
+    </div>
+  </section>
+ 
+  <!-- STACK -->
+  <section id="stack">
+    <div class="wrap fade-in">
+      <p class="section-label">Tecnologías</p>
+      <div class="stack-grid">
+        <div class="stack-item">
+          <p class="stack-cat">Backend</p>
+          <p class="stack-val">PHP 8.x, Laravel 11</p>
+        </div>
+        <div class="stack-item">
+          <p class="stack-cat">Base de datos</p>
+          <p class="stack-val">MySQL, MariaDB</p>
+        </div>
+        <div class="stack-item">
+          <p class="stack-cat">Autenticación</p>
+          <p class="stack-val">Laravel Sanctum</p>
+        </div>
+        <div class="stack-item">
+          <p class="stack-cat">Control de versiones</p>
+          <p class="stack-val">Git, GitHub</p>
+        </div>
+        <div class="stack-item">
+          <p class="stack-cat">Sistema operativo</p>
+          <p class="stack-val">Linux (Kubuntu)</p>
+        </div>
+        <div class="stack-item">
+          <p class="stack-cat">Frontend</p>
+          <p class="stack-val">HTML básico</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+    <div class="wrap fade-in">
+      <p class="section-label">Proyectos personales</p>
+      <div class="projects">
+ 
+        <div class="project">
+          <div class="project-header">
+            <span class="project-name">Sanción Digital — API REST</span>
+            <span class="project-year">2026</span>
+          </div>
+          <p class="project-desc">
+            Reimplementación del sistema de gestión de infracciones como API desacoplada, sin vistas, 
+            diseñada para consumirse desde un frontend externo como React o una app móvil.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Laravel 11</span>
+            <span class="tag">PHP 8.2</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Laravel Sanctum</span>
+            <span class="tag">API REST</span>
+          </div>
+          <ul class="project-bullets">
+            <li>Autenticación stateless mediante tokens con Laravel Sanctum</li>
+            <li>Arquitectura desacoplada lista para cualquier cliente frontend</li>
+            <li>Mismo dominio del problema que la versión PHP — permite comparar ambos enfoques</li>
+          </ul>
+          <a href="https://github.com/Ethan-Millan/Sancion_Digital-Laravel" target="_blank" class="project-link">Ver repositorio</a>
+        </div>
+ 
+        <div class="project">
+          <div class="project-header">
+            <span class="project-name">Sanción Digital — PHP Nativo</span>
+            <span class="project-year">2025</span>
+          </div>
+          <p class="project-desc">
+            Reescritura de un proyecto propio anterior. El sistema gestiona infracciones escolares 
+            y sanciones de servicio comunitario, resolviendo un problema real de mi universidad 
+            que se manejaba con hojas de Excel.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PHP 8.x</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">POO</span>
+            <span class="tag">PDO</span>
+            <span class="tag">MVC</span>
+          </div>
+          <ul class="project-bullets">
+            <li>Arquitectura orientada a objetos con separación de lógica de negocio</li>
+            <li>Sistema de roles: Alumno, Profesor y Personal de Seguridad</li>
+            <li>PDO para consultas seguras y prevención de SQL injection</li>
+          </ul>
+          <a href="https://github.com/Ethan-Millan/Sancion-Digital-PHP-V2" target="_blank" class="project-link">Ver repositorio</a>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- EXPERIENCIA -->
+  <section id="experiencia">
+    <div class="wrap fade-in">
+      <p class="section-label">Experiencia</p>
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-title">Desarrollador Backend — Estadía</span>
+          <span class="exp-period">4 meses</span>
+        </div>
+        <p class="exp-sub">E-commerce con Laravel (PHP) — Práctica profesional</p>
+        <ul class="exp-bullets">
+          <li>Desarrollo de lógica de negocio y arquitectura backend con el patrón MVC de Laravel</li>
+          <li>Autenticación de usuarios y gestión de perfiles con múltiples direcciones de entrega</li>
+          <li>Panel de administración y módulo de reportes de actividad</li>
+          <li>Integración de pasarelas de pago y control de versiones con Git</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- EDUCACIÓN -->
+  <section id="educacion">
+    <div class="wrap fade-in">
+      <p class="section-label">Educación</p>
+      <div class="edu-list">
+        <div class="edu-item">
+          <span class="edu-name">Ingeniería en Tecnologías de la Información — UPEMOR</span>
+          <span class="edu-period">2022 – 2026</span>
+        </div>
+        <div class="edu-item">
+          <span class="edu-name">Técnico en Programación — CBTI's 166</span>
+          <span class="edu-period">2019 – 2022</span>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="wrap fade-in">
+      <p class="section-label">Contacto</p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <p class="contact-label">Email</p>
+          <p class="contact-val"><a href="mailto:millan.diaz.ethan@gmail.com">millan.diaz.ethan@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+          <p class="contact-label">GitHub</p>
+          <p class="contact-val"><a href="https://github.com/Ethan-Millan" target="_blank">github.com/Ethan-Millan</a></p>
+        </div>
+        <div class="contact-item">
+          <p class="contact-label">Teléfono</p>
+          <p class="contact-val">+52 777 826 9187</p>
+        </div>
+        <div class="contact-item">
+          <p class="contact-label">Ubicación</p>
+          <p class="contact-val">Morelos, México</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <p>Ethan Millán © 2026</p>
+    </div>
+  </footer>
+ 
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+ 
+</body>
+</html>
